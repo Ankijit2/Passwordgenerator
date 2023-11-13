@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: rgb(34, 34, 34);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#characterlength{
+  -webkit-appearance: none;
+  height: 6px;
+  background-color: rgb(8 145 178);
+  border-radius: 4px;
+  cursor: pointer;
+}
+#characterlength::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  background-color: rgb(8 145 178);
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
